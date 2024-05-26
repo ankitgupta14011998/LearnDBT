@@ -1,3 +1,3 @@
 {% macro add_name(name) -%}
-  hello {{ name }}
+  'hello {{ name }}'
 {%- endmacro %}
